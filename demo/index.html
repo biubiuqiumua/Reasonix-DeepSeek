@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍅 番茄钟</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍅 番茄钟</h1>
+    <div class="timer" id="timer">25:00</div>
+    <div class="mode" id="mode">专注时间</div>
+    <div class="controls">
+      <button id="start" class="btn btn-start">开始</button>
+      <button id="pause" class="btn btn-pause">暂停</button>
+      <button id="reset" class="btn btn-reset">重置</button>
+    </div>
+    <div class="mode-switch">
+      <button id="focusBtn" class="btn btn-mode active">🍅 专注 25min</button>
+      <button id="shortBreakBtn" class="btn btn-mode">☕ 短休 5min</button>
+      <button id="longBreakBtn" class="btn btn-mode">🌴 长休 15min</button>
+    </div>
+    <div class="sessions">
+      已完成：<span id="count">0</span> 个番茄
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
